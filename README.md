@@ -21,17 +21,24 @@ In the base layer of our ensemble methodology, a group of predictors (ET, XGB, a
 **Other libraries :** Numpy, pandas, matplotlib, pickle etc.
 
 ## Input Requirements
-- A text file (.txt) containing protein sequence in fasta format.
-- The PSSM file (.PSSM) containing the evoluation-derived information of the protein sequence mentioned in the .txt file.
-  You have to get the PSSM file from 'PSI-BLAST'. Download link: https://blast.ncbi.nlm.nih.gov/Blast.cgi.
-- The Spider file (.spd33) containing the secondary structure information of the protein sequence mentioned in the .txt file.
-  You have to get the PSSM file from 'SPIDER3'. Server link: https://sparks-lab.org/server/spider3/.
-- The SPINE-X file (.spXout) containing the secondary structure information along with prediction of solvent accessible surface area and
-  backbone torsion angles of the protein sequence mentioned in the .txt file. Server link: http://sparks.informatics.iupui.edu/.
-- You have to extract protein sequence's features using ProtT5-XL-UniRef50 pretrained-model and store the features in a .csv file.
+- A text file (input.txt) containing the protein sequence in FASTA format.
+- The PSSM file (.PSSM) containing evolution-derived information for the protein sequence mentioned in the .txt file.
+  You need to obtain the PSSM file from 'PSI-BLAST'. Download link: https://blast.ncbi.nlm.nih.gov/Blast.cgi.
+- The Spider file (.spd33) containing secondary structure information for the protein sequence mentioned in the .txt file.
+  To obtain the Spider file, use 'SPIDER3'. Server link: https://sparks-lab.org/server/spider3/.
+- The SPINE-X file (.spXout) contains secondary structure information, predictions of solvent accessible surface area, and
+  backbone torsion angles for the protein sequence mentioned in the .txt file. Server link: http://sparks.informatics.iupui.edu/.
+- You need to extract the protein sequence's features using the ProtT5-XL-UniRef50 pretrained model and save the features in a .csv file.
   Code link: https://github.com/agemagician/ProtTrans/blob/master/Embedding/TensorFlow/Advanced/ProtT5-XL-UniRef50.ipynb.
 
+
 ## Run the StackCBEmbed model
+1. Download the repository:
+   git clone "https://github.com/farah5112github/StackCBEmbed.git". 
+2. Navigate to the 'input_files' folder within the 'StackCBEmbed' directory.
+3. Place all the required input files into the 'input_files' folder.
+4. Substitute the existing protein sequence in the input.txt file with your own sequence. Note that StackCBEmbed can only handle a single sequence.
+5. Proceed to the 'StackCBEmbed codes' folder and execute main.py.
 
 
 ## References 
