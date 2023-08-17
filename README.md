@@ -39,7 +39,7 @@ In the base layer of our ensemble methodology, a group of predictors (ET, XGB, a
 3. Place all the required input files into the 'input_files' folder.
 4. Substitute the existing protein sequence in the input.txt file with your own sequence. Note that StackCBEmbed can only handle a single sequence.
 5. Proceed to the 'StackCBEmbed codes' folder and execute main.py.
-
+6. A file named 'output.csv' will be created in the 'StackCBEmbed' directory.
 
 ## References 
 <a id="1">[1]</a>
