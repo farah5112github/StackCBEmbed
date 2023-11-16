@@ -9,8 +9,7 @@ We introduced 'StackCBEmbed,' a computational sequence-based ensemble model, to 
 
 ## Graphical abstract
 ![framework](https://github.com/farah5112github/StackCBEmbed/assets/60771070/227c4f1e-1e87-4eef-8d81-8aa4013f6f1f)
-
-![my_diagram](https://github.com/farah5112github/StackCBEmbed/files/13382446/my_diagram.pdf)
+![my_diagram](https://github.com/farah5112github/StackCBEmbed/assets/60771070/e4861d60-0e03-4877-9614-b2d07dafc93b)
 
 
 ## Environmental Setup :
