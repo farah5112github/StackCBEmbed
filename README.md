@@ -33,13 +33,17 @@ In the base layer of our ensemble methodology, a group of predictors (ET, XGB, a
 
 
 ## Run the StackCBEmbed model
-1. Download the repository:
-   git clone "https://github.com/farah5112github/StackCBEmbed.git". 
-2. Navigate to the 'input_files' folder within the 'StackCBEmbed' directory.
-3. Place all the required input files into the 'input_files' folder.
-4. Substitute the existing protein sequence in the input.txt file with your own sequence. Note that StackCBEmbed can only handle a single sequence.
-5. Proceed to the 'StackCBEmbed codes' folder and execute main.py.
-6. A file named 'output.csv' will be created in the 'StackCBEmbed' directory.
+1. Go to the command prompt.
+2. Write the following command in the command prompt to download the 'StackCBEmbed' repository.
+   ```plaintext
+   git clone "https://github.com/farah5112github/StackCBEmbed.git"
+3. Navigate to the 'input_files' folder within the 'StackCBEmbed' directory.
+4. Place all the required input files into the 'input_files' folder.
+5. Substitute the existing protein sequence in the input.txt file with your own sequence. Note that StackCBEmbed can only handle a single sequence.
+6. Proceed to the 'StackCBEmbed codes' folder and execute main.py from command prompt. During execution, you will be prompted to enter the absolute path of the StackCBEmbed folder (e.g., C:/Users/quazi/Desktop/StackCBEmbed/). Additionally, you will be asked to specify your choice between using a model with only embeddings or a model with both embeddings and PSSM.
+    ```plaintext
+   python main.py
+7. The output file named 'output.csv' will be created in the 'StackCBEmbed' directory.
 
 ## References 
 <a id="1">[1]</a>
