@@ -31,8 +31,9 @@ We introduced 'StackCBEmbed,' a computational sequence-based ensemble model, to 
    git clone "https://github.com/farah5112github/StackCBEmbed.git"
 3. Navigate to the 'input_files' folder within the 'StackCBEmbed' directory.
 4. Place all the required input files into the 'input_files' folder.
-5. Substitute the existing protein sequence in the input.txt file with your own sequence. Note that StackCBEmbed can only handle a single sequence.
-6. Proceed to the 'StackCBEmbed codes' folder and execute main.py from the command prompt using the following command. During execution, you will be prompted to enter the absolute path of the StackCBEmbed folder (e.g., C:/Users/quazi/Desktop/StackCBEmbed/). Additionally, you will be asked to specify your choice between using a model with only embeddings or a model with both embeddings and PSSM.
-    ```plaintext
+5. Substitute the existing protein sequence in the input.txt file with your own sequence. 
+6. Proceed to the 'StackCBEmbed codes' folder and execute main.py from the command prompt using the following command. 
+   ```plaintext
    python main.py
-7. The output file named 'output.csv' will be created in the 'StackCBEmbed' directory.
+7. During execution, you will be prompted to enter your choice between using a model with only embeddings or a model with both embeddings and PSSM.
+8. The output files will be created in the 'StackCBEmbed' directory.
