@@ -35,5 +35,5 @@ We introduced 'StackCBEmbed,' a computational sequence-based ensemble model, to 
 6. Proceed to the 'StackCBEmbed codes' folder and execute main.py from the command prompt using the following command. 
    ```plaintext
    python main.py
-7. During execution, you will be prompted to enter your choice between using a model with only embeddings or a model with both embeddings and PSSM.
+7. During execution, you will be prompted to choose between using the original model or the model with embeddings only.
 8. The output files will be created in the 'StackCBEmbed' directory.
