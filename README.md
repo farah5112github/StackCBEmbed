@@ -18,7 +18,7 @@ We introduced 'StackCBEmbed,' a computational sequence-based ensemble model, to 
 
 ## Input Requirements
 - A text file (input.txt) containing the protein sequence in FASTA format.
-- The PSSM file (.PSSM) containing evolution-derived information for the protein sequence mentioned in the .txt file.
+- [Optional] The PSSM file (.PSSM) containing evolution-derived information for the protein sequence mentioned in the .txt file.
   You need to obtain the PSSM file from 'PSI-BLAST'. Download link: https://blast.ncbi.nlm.nih.gov/Blast.cgi.
 - You need to extract the protein sequence's features using the ProtT5-XL-UniRef50 pretrained model and save the features in a .csv file.
   Code link: https://github.com/agemagician/ProtTrans/blob/master/Embedding/TensorFlow/Advanced/ProtT5-XL-UniRef50.ipynb.
