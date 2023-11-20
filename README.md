@@ -17,8 +17,8 @@ We introduced 'StackCBEmbed,' a computational sequence-based ensemble model, to 
 **Other libraries :** Numpy, pandas, matplotlib, pickle etc.
 
 ## Input Requirements
-- You have put the test protein sequences along with their ID in the text file (StackCBEmbed\input_files\input.txt) in FASTA format for which you want to get the protein-carbohydrate binding 
-  sites predictions. You can include multiple protein sequences at a time. The sample protein sequences are given in the 'input.txt' file.
+- You need to place the test protein sequences, along with their IDs, into the text file (StackCBEmbed\input_files\input.txt) in FASTA format to obtain predictions for protein-carbohydrate 
+  binding sites. It's possible to include several protein sequences simultaneously. Examples of these protein sequences are provided in the 'input.txt' file.
 - [Optional] The PSSM file (.PSSM) containing evolution-derived information for the protein sequence mentioned in the .txt file.
   You need to obtain the PSSM file from 'PSI-BLAST'. Download link: https://blast.ncbi.nlm.nih.gov/Blast.cgi.
 - You need to extract the protein sequence's features using the ProtT5-XL-UniRef50 pretrained model and save the features in a .csv file.
