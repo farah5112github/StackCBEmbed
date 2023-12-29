@@ -38,8 +38,11 @@ imblearn==0.0
   binding sites. It's possible to include several protein sequences simultaneously. Examples of these protein sequences are provided in the 'input.txt' file.
 - [Optional] The PSSM file (.PSSM) containing evolution-derived information for the protein sequence mentioned in the .txt file.
   You need to obtain the PSSM file from 'PSI-BLAST'. Download link: https://blast.ncbi.nlm.nih.gov/Blast.cgi.
-- You need to extract the protein sequence's features using the ProtT5-XL-UniRef50 pretrained model and save the features in a .csv file.
-  Code link: https://github.com/agemagician/ProtTrans/blob/master/Embedding/TensorFlow/Advanced/ProtT5-XL-UniRef50.ipynb.
+  Details for how to retrieve the PSSM files: https://github.com/mrzResearchArena/BLAST
+- You need to extract the protein sequence's features using the ProtT5-XL-UniRef50 pretrained model of ProtTrans paper and save the features in a .csv file.
+  Code link(Requires collab pro for its high RAM requirement): https://github.com/agemagician/ProtTrans/blob/master/Embedding/TensorFlow/Advanced/ProtT5-XL-UniRef50.ipynb.
+  Link to paper: https://pubmed.ncbi.nlm.nih.gov/34232869/
+  (ProtTrans: Toward Understanding the Language of Life Through Self-Supervised Learning - PubMed (nih.gov))
 
 
 ## Run the StackCBEmbed model
