@@ -11,10 +11,22 @@ We introduced 'StackCBEmbed,' a computational sequence-based ensemble model, to 
 ![my_new_diagram](https://github.com/farah5112github/StackCBEmbed/assets/60771070/10e0001e-6a61-4b76-ac7e-2c0c2922b393)
 
 ## Environmental Setup :
-**Programming Language :** Python 3.10.4 <br />
+**Programming Language :** Python 3.10.12 <br />
 **Machine Learning based library :** Scikitlearn 1.2.2 <br />
-**IDE for python :** PyCharm 2021.3.3 <br />
-**Other libraries :** Numpy, pandas, matplotlib, pickle etc.
+**IDE for python :** PyCharm 2023.3.2 <br />
+**Other libraries :** xgboost==2.0.3
+scops==0.9.0
+pickle5==0.0.11
+scikit-learn==1.2.2
+numpy==1.26.2
+pandas==2.1.4
+matplotlib==3.8.2
+PyQt5==5.15.10
+numpy==1.26.2
+matplotlib==3.8.2
+skops==0.9.0
+pandas==2.1.4
+imblearn==0.0
 
 ## Input Requirements
 - You need to place the test protein sequences, along with their IDs, into the text file (StackCBEmbed\input_files\input.txt) in FASTA format to obtain predictions for protein-carbohydrate 
