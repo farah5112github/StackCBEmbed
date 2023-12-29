@@ -28,7 +28,7 @@ skops==0.9.0
 pandas==2.1.4
 imblearn==0.0
 
-## Dataset (id, no of sequence, seqiences and target output):
+## Dataset (protein_id, no of sequences, sequences and target output):
 **Benchmark(Training and validation) set:** https://drive.google.com/file/d/1lDSVqmTT2wNRjv4JKlwHIMDAZ1_9IOPD/view?usp=sharing <br />
 **TS49 :** https://drive.google.com/file/d/1RfaecHJGfSsp3ny9-TE4xcc_HULiSpnc/view?usp=drive_link <br />
 **TS88 :** https://drive.google.com/file/d/1EKf7vBQypdcLxFVi8etZAZOdkCUcfraU/view?usp=drive_link
