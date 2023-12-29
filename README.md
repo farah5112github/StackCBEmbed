@@ -28,6 +28,11 @@ skops==0.9.0
 pandas==2.1.4
 imblearn==0.0
 
+## Dataset (id, no of sequence, seqiences and target output):
+**Benchmark(Training and validation) set:** https://drive.google.com/file/d/1lDSVqmTT2wNRjv4JKlwHIMDAZ1_9IOPD/view?usp=sharing <br />
+**TS49 :** https://drive.google.com/file/d/1RfaecHJGfSsp3ny9-TE4xcc_HULiSpnc/view?usp=drive_link <br />
+**TS88 :** https://drive.google.com/file/d/1EKf7vBQypdcLxFVi8etZAZOdkCUcfraU/view?usp=drive_link
+
 ## Input Requirements
 - You need to place the test protein sequences, along with their IDs, into the text file (StackCBEmbed\input_files\input.txt) in FASTA format to obtain predictions for protein-carbohydrate 
   binding sites. It's possible to include several protein sequences simultaneously. Examples of these protein sequences are provided in the 'input.txt' file.
