@@ -1,4 +1,0 @@
-Predictor,Sensitivity,Specificity,Balanced_acc,Accuracy,F1-score,MCC,AUC,auPR
-StackCBEmbed (PSSM),0.5256,0.6918,0.6087,0.6856,0.1100,0.0882,0.6390,0.0693
-StackCBEmbed (Embedding),0.6358,0.8184,0.7271,0.8116,0.1998,0.2149,0.7963,0.2136
-SStackCBEmbed,0.6693,0.8219,0.7456,0.8163,0.2122,0.2334,0.8040,0.2154
