@@ -61,11 +61,12 @@ imblearn==0.0
 2. Write the following command in the command prompt to download the 'StackCBEmbed' repository.
    ```plaintext
    git clone "https://github.com/farah5112github/StackCBEmbed.git"
-3. Navigate to the 'input_files' folder within the 'StackCBEmbed' directory.
-4. Place all the required input files into the 'input_files' folder.
-5. Substitute the existing protein sequence in the input.txt file with your own sequence. 
-6. Proceed to the 'StackCBEmbed codes' folder and execute main.py from the command prompt using the following command. 
+3. Navigate to the 'output_csvs' folder within the 'StackCBEmbed' directories(table_2_generation, table_3_generation, etc.). There you will find the target csvs for the paper.
+4. Navigate to the 'all_required_csvs' folder within the 'StackCBEmbed' directories(table_2_generation, table_3_generation, etc.).Place all the required files into the 'all_required_csvs' folder if you want to run the main.py. main.py will generate the csv files.
+5. For prediction folder,place all the required input files into the 'input_files' folder.
+6. Substitute the existing protein sequence in the input.txt file with your own sequence. 
+7. Proceed to the 'StackCBEmbed codes' folder and execute main.py from the command prompt using the following command. 
    ```plaintext
    python main.py
-7. During execution, you will be prompted to choose between using the original model or the model with embeddings only.
-8. The output files will be created in the 'StackCBEmbed' directory.
+8. During execution, you will be prompted to choose between using the original model or the model with embeddings only.
+9. The output files will be created in the 'output_csvs' directory.
