@@ -33,6 +33,16 @@ imblearn==0.0
 **TS49 :** https://drive.google.com/file/d/1RfaecHJGfSsp3ny9-TE4xcc_HULiSpnc/view?usp=drive_link <br />
 **TS88 :** https://drive.google.com/file/d/1EKf7vBQypdcLxFVi8etZAZOdkCUcfraU/view?usp=drive_link
 
+## Dataset PSSM:
+**Benchmark(Training and validation) set:** https://drive.google.com/drive/folders/1aqwOzRwhjQ_dg2UPOeKcD7VAaYyZDJP1?usp=drive_link <br />
+**TS49 :** https://drive.google.com/drive/folders/10riCKVAfq4pdMH3G10iTh35e02PFiM0z <br />
+**TS88 :** https://drive.google.com/drive/folders/1WMNEPerLjyr4C8g-ARFt1lnNvrxlJ_na
+
+## Dataset Embedding:
+**Benchmark(Training and validation) set:** https://drive.google.com/drive/folders/1pVsBDg6p0bMd6aKleMPhMMS1mIfEbRmF <br />
+**TS49 :** https://drive.google.com/drive/folders/1xWvgVNQNsfV6JM9GZPr9hv5rBVJ5yMsB <br />
+**TS88 :** https://drive.google.com/drive/folders/17jZS-ygWVD-D2mJsFLLdnQv6IcedHQ0k
+
 ## Input Requirements
 - You need to place the test protein sequences, along with their IDs, into the text file (StackCBEmbed\input_files\input.txt) in FASTA format to obtain predictions for protein-carbohydrate 
   binding sites. It's possible to include several protein sequences simultaneously. Examples of these protein sequences are provided in the 'input.txt' file.
