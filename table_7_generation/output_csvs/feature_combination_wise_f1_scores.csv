@@ -1,7 +1,0 @@
-Feature Combination,F1-score
-"ProtT5-XL-UniRef50, PSSM",0.7298
-"ProtT5-XL-UniRef50, PSSM, torsion_angles, MonoGram, DPC, ASA",0.7391
-"ProtT5-XL-UniRef50, PSSM, torsion_angles, MonoGram, DPC",0.7333
-"ProtT5-XL-UniRef50, PSSM, torsion_angles",0.7517
-"ProtT5-XL-UniRef50, PSSM, torsion_angles, MonoGram, DPC, Physicochemical",0.7465
-"ProtT5-XL-UniRef50, PSSM, BLP",0.7644
