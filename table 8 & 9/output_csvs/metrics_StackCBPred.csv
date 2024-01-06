@@ -1,0 +1,3 @@
+Dataset,Sensitivity,Specificity,Balanced_acc,Accuracy,F1-score,MCC,AUC,auPR
+TS49,0.5217,0.8044,0.6630,0.7939,0.1577,0.1517,0.7248,0.1057
+TS88,0.4971,0.7499,0.6235,0.7435,0.0895,0.0889,0.6712,0.0546
