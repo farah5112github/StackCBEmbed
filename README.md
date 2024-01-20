@@ -5,10 +5,10 @@ Carbohydrates, the third essential molecules after DNA and proteins, interact wi
 
 Due to challenges in experimental techniques, there is a pressing need for developing computational methods to predict protein-carbohydrate binding sites. Computational studies use diverse structure-based and sequence-based methods, with some structured-based techniques relying on frequently unavailable protein structures.
 
-We introduced 'StackCBEmbed,' a computational sequence-based ensemble model, to classify protein-carbohydrate binding interactions at the residue level, utilizing benchmark and testing datasets with high-resolution data. Applying Incremental Feature Selection, we extracted essential sequence-based features and incorporated embedding features from the 'T5-XL-Uniref50' language model, marking the first attempt to apply a protein language model in predicting these interactions. In our ensemble method, base predictors (ET, XGB, SVM), guided by average information gain scores, were trained on selected sequence-based and protein language model features, with their outcomes merged into original features for input into the meta-layer predictor (XGB).
+We introduced 'StackCBEmbed,' a computational sequence-based ensemble model, to classify protein-carbohydrate binding interactions at the residue level, utilizing benchmark and testing datasets with high-resolution data. Applying Incremental Feature Selection, we extracted essential sequence-based features and incorporated embedding features from the 'T5-XL-Uniref50' language model, marking the first attempt to apply a protein language model in predicting these interactions. In our ensemble method, base predictors (SVM, MLP, ET and PLS), guided by average information gain scores, were trained on selected sequence-based and protein language model features, with their outcomes merged into original features for input into the meta-layer predictor (SVM).
 
 ## Graphical abstract
-![my_new_diagram](https://github.com/farah5112github/StackCBEmbed/assets/60771070/10e0001e-6a61-4b76-ac7e-2c0c2922b393)
+![my_new_diagram](https://drive.google.com/file/d/1MAXaKOq3mMJ49RSu1RFeS4oJDr-B5SzS/view?usp=sharing)
 
 ## Environmental Setup :
 **Programming Language :** Python 3.10.12 <br />
