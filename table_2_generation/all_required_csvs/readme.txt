@@ -1,7 +1,0 @@
-Files needed to be downloaded:(download link: https://drive.google.com/drive/folders/1IfyUXgFAdaLOW6AgRp_Llv7Lzt9ppiBI?usp=sharing)
-benchmark_embeddings.csv
-Benchmark_Prot_Albert_embeddings.csv
-Benchmark_ProtBERT_BFD_embeddings.csv
-Benchmark_Prot_BERT_embeddings.csv
-Benchmark_ProtT5_XL_BFD_embeddings.csv
-Benchmark_Prot_XL_Net_embeddings.csv
