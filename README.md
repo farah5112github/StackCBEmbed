@@ -8,7 +8,7 @@ Due to challenges in experimental techniques, there is a pressing need for devel
 We introduced 'StackCBEmbed,' a computational sequence-based ensemble model, to classify protein-carbohydrate binding interactions at the residue level, utilizing benchmark and testing datasets with high-resolution data. Applying Incremental Feature Selection, we extracted essential sequence-based features and incorporated embedding features from the 'T5-XL-Uniref50' language model, marking the first attempt to apply a protein language model in predicting these interactions. In our ensemble method, base predictors (SVM, MLP, ET and PLS), guided by average information gain scores, were trained on selected sequence-based and protein language model features, with their outcomes merged into original features for input into the meta-layer predictor (SVM).
 
 ## Graphical abstract
-![my_new_diagram](https://github.com/farah5112github/StackCBEmbed/blob/main/prediction.png))
+![my_new_diagram](https://drive.google.com/file/d/1MAXaKOq3mMJ49RSu1RFeS4oJDr-B5SzS/view?usp=sharing)
 
 ## Environmental Setup :
 **Programming Language :** Python 3.10.12 <br />
