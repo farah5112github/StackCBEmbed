@@ -27,6 +27,7 @@ matplotlib
 PyQt5==5.15.10
 numpy==1.26.2
 imblearn==0.0
+<br />
 **OS used during running:**  Pop!_OS 22.04 
 
 ## Dataset (protein_id, no of sequences, sequences and target output):
