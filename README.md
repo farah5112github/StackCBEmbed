@@ -26,8 +26,6 @@ pandas==2.1.4
 matplotlib
 PyQt5==5.15.10
 numpy==1.26.2
-skops==0.9.0
-pandas==2.1.4
 imblearn==0.0
 
 ## Dataset (protein_id, no of sequences, sequences and target output):
