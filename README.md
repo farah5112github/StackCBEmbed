@@ -26,7 +26,6 @@ pandas==2.1.4
 matplotlib==3.8.2
 PyQt5==5.15.10
 numpy==1.26.2
-matplotlib==3.8.2
 skops==0.9.0
 pandas==2.1.4
 imblearn==0.0
