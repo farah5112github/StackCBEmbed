@@ -65,7 +65,7 @@ imblearn==0.0
    ```plaintext
    git clone "https://github.com/farah5112github/StackCBEmbed.git"
 3. Navigate to the 'output_csvs' folder within the 'StackCBEmbed' directories(table_2_generation, table_3_generation, etc.). There you will find the target csvs for the paper.
-4. Navigate to the 'all_required_csvs' folder within the 'StackCBEmbed' directories(table_2_generation, table_3_generation, etc.).Place all the required files into the 'all_required_csvs' folder if you want to run the main.py. main.py will generate the csv files.
+4. Navigate to the 'all_required_csvs' folder within the 'StackCBEmbed' directories(table_2_generation, table_3_generation, etc.).Place all the required files into the 'all_required_csvs' folder if you want to run the main.py. main.py will generate the csv files. The "readme.txt" file in each 'all_required_csvs' folder has all the required csv list and download link.
 5. For prediction folder,place all the required input files into the 'input_files' folder.
 6. Substitute the existing protein sequence in the input.txt file with your own sequence. 
 7. Proceed to the 'StackCBEmbed codes' folder and execute main.py from the command prompt using the following command. 
